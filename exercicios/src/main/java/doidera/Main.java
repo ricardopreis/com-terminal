@@ -20,12 +20,12 @@ public class Main {
         System.out.println("Informe o ultimo número: ");
         numero4 = sc.nextInt();
         
-        System.out.println(soma(numero1, numero2, numero3, numero4));
+        int somaValores = soma(numero1, numero2, numero3, numero4);
+        System.out.println(somaValores);
         
     }
     public static int soma(int numero1, int numero2, int numero3, int numero4){
-        int soma = numero1 + numero2 + numero3 + numero4;
-        return soma;
+        return numero1 + numero2 + numero3 + numero4;
         
 
     }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        //doidera
         System.out.println("Informe um número: ");
         String numero = sc.nextLine();
 
